@@ -234,7 +234,7 @@
       </div>
       </div>            
     </div>
-    <div class="cart center" style="padding-top:100px;padding-bottom:100px;display:flex; justify-content: center;" v-else >
+    <div class="cart center" style="text-align: center; padding-top:100px;padding-bottom:100px;display:flex; justify-content: center;" v-else >
       <p style="font-size: 24px;
         color: #5B4A58">{{ txt }}</p>
     </div>

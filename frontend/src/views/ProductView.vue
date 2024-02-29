@@ -191,6 +191,8 @@
         </svg>
                 В корзину
                 </button>
+                <Dialog v-model:visible="dialogvisible" modal :style="{ width: '25rem' }" header="Изменен!" >            
+        </Dialog>
             
 
 
@@ -201,18 +203,20 @@
 </template>
 
 <script>
+import Dialog from 'primevue/dialog';
 import { mapGetters,mapActions } from "vuex";
 export default {
   name: "ProductView",
 
-  components: {},
+  components: {Dialog},
 
   data() {
     return {
         id: this.$route.params.id,
         quantity:0,
         sum:0,
-        priid:'small',                
+        priid:'small',
+        dialogvisible:false,                
     };
 
   },  
@@ -265,7 +269,10 @@ export default {
             this.REMOVE_TO_CART_V1(article)
         } else {
             this.ADD_TO_CART(article);
+            this.dialogvisible=true;
         }
+
+        
         
         
         // this.$emit('sendProduct', article);                
