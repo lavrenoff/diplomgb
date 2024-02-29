@@ -1,0 +1,39 @@
+version: "3"
+networks:
+  app-tier:
+    driver: bridge    
+services:  
+  mariadb: 
+    image: mariadb:latest
+    container_name: mariadb
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"        
+    networks:
+      - app-tier  
+    environment:
+      MARIADB_ROOT_PASSWORD: 'password'    
+    volumes:
+      - ~/mariadb:/var/lib/mysql      
+  adminer:
+    image: adminer:latest
+    container_name: adminer
+    environment:
+      ADMINER_DEFAULT_SERVER: mariadb
+    restart: always
+    ports:
+      - "8888:8080"
+  backend:
+    build: .
+    container_name: backend
+    restart: always
+    ports:
+      - "5000:5000"
+    networks:
+      - app-tier  
+    depends_on:
+      - mariadb
+
+    

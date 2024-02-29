@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Literal Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Literal Regular"), url("../fonts/Literal-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Karton";
+    font-style: normal;
+    font-weight: normal;
+    
+    src: local("Karton"), url("../fonts/Karton-Regular.ttf") format("truetype");
+}
+
+
+*{
+box-sizing: border-box;    
+margin: 0;
+position: relative;
+font-family: "Literal Regular";
+}
+
+.center {
+    padding-left: calc(50% - 550px);
+    padding-right: calc(50% - 550px);
+}
+
+
+
+
