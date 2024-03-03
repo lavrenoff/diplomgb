@@ -1,6 +1,6 @@
 <h1>Разработка сайта цветочного магазина</h1>
 Стеки:
-Vue+VueRoute+VueStore+PrimeVue+MariaDB+Docker
+Vue+VueRoute+VueStore+PrimeVue+MariaDB+Docker+Express
 
 Приложение состоит из:<br>
 <a href="https://github.com/lavrenoff/diplomgb/tree/main/backend">Backend части приложения</a><br>
