@@ -1,7 +1,4 @@
 <h1>Разработка сайта цветочного магазина</h1>
-Стеки:
-Vue+VueRoute+VueStore+PrimeVue+MariaDB+Docker+Express
-
 Приложение состоит из:<br>
 <a href="https://github.com/lavrenoff/diplomgb/tree/main/backend">Backend части приложения</a><br>
 <a href="https://github.com/lavrenoff/diplomgb/tree/main/frontend">Frontend части приложения</a>
@@ -11,15 +8,23 @@ Vue+VueRoute+VueStore+PrimeVue+MariaDB+Docker+Express
 
 Проект можно увидеть по ссылке <a href="http://147.78.65.79:3000">http://147.78.65.79:3000</a>
 
+Инструмент, используемые в работы:
+HTML,CSS, Javascript, Vue, VueRoute, VueStore, PrimeVue, MariaDB, Docker, Express
+
 <p>Реализовано:</p>
+Создание backend<br>
+Создание базы данных<br>
 Шапка и футер<br>
 Постраничный роутинг<br>
 Каталоги на главной странице<br>
-Корзина и оформление заказа<br>
-Создание backend<br>
-Создание базы данных<br>
 Сортировка по категориям<br>
 Фильтр и поиск по товарам<br>
+Корзина и оформление заказа<br>
+Адаптивная верстка<br>
+Регистрация пользователя<br>
+Авторизация пользователя<br>
+
+
 
 
 
