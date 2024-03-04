@@ -27,6 +27,8 @@ HTML,CSS, Javascript, Vue, VueRoute, VueStore, PrimeVue, MariaDB, Docker, Expres
 Адаптивная верстка<br>
 Регистрация пользователя<br>
 Авторизация пользователя<br>
+возможность редактирования профиля пользователя<br>
+
 
 
 
