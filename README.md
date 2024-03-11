@@ -29,6 +29,7 @@ HTML,CSS, Javascript, Vue, VueRoute, VueStore, PrimeVue, MariaDB, Docker, Expres
 Авторизация пользователя<br>
 возможность редактирования профиля пользователя<br>
 
+<a href="https://docs.google.com/document/d/1qAkOYlRQtIQ9q2VIKyPQKj2NnNG9p-91ycsl4GQ_yaY/edit?usp=sharing">Дипломная работа</a>
 
 
 
