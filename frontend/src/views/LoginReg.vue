@@ -122,8 +122,7 @@ export default {
         .post("auth/login", data)
         .then((res) => {
           localStorage.setItem("token", res.data.token);
-          this.$store.state.user = res.data;
-          // console.log()
+          this.$store.state.user = res.data;          
           this.$router.push("/profileview");
         })
         .catch((err) => {
@@ -148,17 +147,12 @@ export default {
             axios.post('auth/register',data)
             .then(
                 (res)=>{
-                    // console.log(res.data.message);
                     this.email='';
-                    this.password='';
-                    // this.bool=true;
-                    this.dialogvisible=true;
-                    
-                    // this.$router.push('login')
+                    this.password='';          
+                    this.dialogvisible=true;                                   
                 }
             ).catch(
                 (err)=>{
-                    // console.log(err.response.data.message)
                     this.regerror=err.response.data.message
                 }
             )

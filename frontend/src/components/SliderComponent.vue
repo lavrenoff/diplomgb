@@ -1,8 +1,5 @@
 <!-- https://swiperjs.com/vue#installation -->
-<template>
-    
-    
-    <!-- < :pagination="{ clickable: true, }" :modules="modules" :slides-per-view="1" class="mySwiper" :space-between="50"> -->
+<template>    
     <swiper :pagination="{ clickable: true, }" :modules="modules" :slides-per-view="1" class="mySwiper">
         <swiper-slide>
             <section class="banner_slider">
@@ -66,8 +63,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-
-// Import Swiper styles
 import 'swiper/css';
 
 export default {
@@ -76,16 +71,7 @@ export default {
         SwiperSlide,
     },
     setup() {
-
-
         return {
-
-            //   pagination: {
-            //   clickable: true,
-            //   renderBullet: function (index, className) {
-            //     return '<span class="' + className + '">' + (index + 1) + '</span>';
-            //   },
-            // },
             modules: [Pagination],
 
         };
