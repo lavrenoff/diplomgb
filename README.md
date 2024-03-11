@@ -4,14 +4,14 @@
 <a href="https://github.com/lavrenoff/diplomgb/tree/main/frontend">Frontend части приложения</a>
 
 Адрес макета:<br>
-<a href="https://www.figma.com/file/b6AD6GW2AGDs1DzlQSOdMN/Flawka_vl-(Copy)-(Copy)?type=design&node-id=0-1&mode=design&t=kuX1E3oDkjWmAjzm-0" target="_blank">Figma</a>
+<a href="https://www.figma.com/file/b6AD6GW2AGDs1DzlQSOdMN/Flawka_vl-(Copy)-(Copy)?type=design&node-id=0-1&mode=design&t=kuX1E3oDkjWmAjzm-0">Figma</a>
 
-Проект можно увидеть по ссылке <a href="http://147.78.65.79:3000" target="_blank">http://147.78.65.79:3000</a>
+Проект можно увидеть по ссылке <a href="http://147.78.65.79:3000">http://147.78.65.79:3000</a>
 
 Этот проект, разработанный мной в качестве дипломной работы по обучению на профессию "Frontend-разработчик". 
 
 Что это за проект?
-Приложение интернет-магазин цветовика позволяет возможность пользователям покупать цветы и другие растения онлайн с любого устройства<br>
+Приложение интернет-магазин "Цветочная лавка" позволяет возможность пользователям покупать цветы и другие растения онлайн с любого устройства<br>
 Инструмент, используемые в работы:
 HTML,CSS, Javascript, Vue, VueRoute, VueStore, PrimeVue, MariaDB, Docker, Express
 
@@ -29,10 +29,4 @@ HTML,CSS, Javascript, Vue, VueRoute, VueStore, PrimeVue, MariaDB, Docker, Expres
 Авторизация пользователя<br>
 возможность редактирования профиля пользователя<br>
 
-<a href="https://docs.google.com/document/d/1qAkOYlRQtIQ9q2VIKyPQKj2NnNG9p-91ycsl4GQ_yaY/edit?usp=sharing" target="_blank">Дипломная работа</a>
-
-
-
-
-
-
+<a href="https://docs.google.com/document/d/1qAkOYlRQtIQ9q2VIKyPQKj2NnNG9p-91ycsl4GQ_yaY/edit?usp=sharing">Дипломная работа</a>
