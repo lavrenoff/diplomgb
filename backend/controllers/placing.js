@@ -28,16 +28,17 @@ module.exports.create = async function (req, res) {
             if (req.body.cart[i].idprice === 0) {
                 price = req.body.cart[i].price;
             }
-            if (req.body.cart[i].idprice === 1) {
-                price = req.body.cart[i].pricesvg;
-            }
-            else {
-                price = req.body.cart[i].pricebig;
-            }
+            else
+                if (req.body.cart[i].idprice === 1) {
+                    price = req.body.cart[i].pricesvg;
+                }
+                else {
+                    price = req.body.cart[i].pricebig;
+                }
+
 
             const sql1 = `insert into addOrders (name,price,priceid,quantity,kod_placing) values ('${req.body.cart[i].name}',${price},${req.body.cart[i].idprice},${req.body.cart[i].quantity},${kod})`;
 
-            // console.log(sql1);
             await db.pool.query(sql1);
         }
 

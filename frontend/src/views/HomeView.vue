@@ -3401,11 +3401,7 @@ export default {
         x["popularity"] > y["popularity"] ? -1 : 1
       );
     },
-    findName(str){
-      // console.log(str);
-      // el.books.toLowerCase().indexOf(textSearch.toLowerCase()) !== -1;
-
-      // this.products = this.products_package.filter((element) => element.name===str);                
+    findName(str){            
       this.products = this.products_old.filter((element) => element.name.toLowerCase().indexOf(str.toLowerCase())!==-1);                
     },
     onClickAdd(product){   

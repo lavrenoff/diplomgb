@@ -12,7 +12,7 @@
                 <p class="z">Дата заказа</p>
                 <p class="s ss">{{item.dt}}</p>
                 <p class="z">Номер заказа</p>
-                <p class="s">{{item.num}}</p>
+                <p class="s">{{item.kod}}</p>
               </div>
               <div class="profile__block_2">
                 <p class="z">Наименование:</p>

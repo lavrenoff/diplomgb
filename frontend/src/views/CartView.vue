@@ -316,6 +316,7 @@ export default {
           }
       const cart = this.CART;            
       
+      // console.log(cart);
       await axios.post(`placing`, {placing,cart}); 
                           
       
@@ -339,8 +340,8 @@ export default {
     // }
 
     onDeleteFromCart(cart)    {
-        console.log(cart);
-        // this.REMOVE_TO_CART_V1(cart)  
+        // console.log(cart);
+        this.REMOVE_TO_CART_V1(cart)  
     },
 
     onDeleteAllCart(cart){
