@@ -6,7 +6,7 @@
 Адрес макета:<br>
 <a href="https://www.figma.com/file/b6AD6GW2AGDs1DzlQSOdMN/Flawka_vl-(Copy)-(Copy)?type=design&node-id=0-1&mode=design&t=kuX1E3oDkjWmAjzm-0">Figma</a>
 
-Проект можно увидеть по ссылке <a href="http://147.78.65.79:3000">http://147.78.65.79:3000</a>
+
 
 Этот проект, разработанный мной в качестве дипломной работы по обучению на профессию "Frontend-разработчик". 
 
